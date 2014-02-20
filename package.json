@@ -1,31 +1,10 @@
 {
-  "name": "bedazzle",
+  "name": "damonoehlman-bedazzle",
   "description": "CSS3 Animation Helpers for JS",
-  "keywords": [
-    "css3",
-    "animation"
-  ],
-  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "version": "0.4.1",
-  "main": "bedazzle",
+  "main": "index.js",
   "dependencies": {
-    "stylar": "~0.2.1",
-    "ratchet": "~0.3.0",
-    "underscore": "~1.5.1"
-  },
-  "devDependencies": {
-    "crel": "~1.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/DamonOehlman/bedazzle.git"
-  },
-  "bugs": {
-    "url": "http://github.com/DamonOehlman/bedazzle/issues"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "gendocs": "gendocs > README.md"
-  },
-  "license": "MIT"
+    "DamonOehlman-ratchet": "git://github.com/npmcomponent/DamonOehlman-ratchet.git",
+    "DamonOehlman-stylar": "git://github.com/npmcomponent/DamonOehlman-stylar.git"
+  }
 }

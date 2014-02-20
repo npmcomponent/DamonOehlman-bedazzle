@@ -57,9 +57,9 @@
 
 **/
 
-var ratchet = require('ratchet');
-var stylar = require('stylar');
-var _ = require('underscore');
+var ratchet = require('DamonOehlman-ratchet');
+var stylar = require('DamonOehlman-stylar');
+// commented out by npm-component: var _ = require('underscore');
 var extend = _.extend;
 
 // define the property map
